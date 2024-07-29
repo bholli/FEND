@@ -1,0 +1,52 @@
+/* add your CSS here */
+*{
+    transition: all 0.275s ease;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+}
+
+.animal-card{
+    background-color: #f9f9f9;
+    border: 1px solid #000;
+    margin: 10px;
+    padding: 0 10px 10px;
+    width:300px;
+    box-shadow: 8px 8px 0 #e0e0e0;
+}
+
+.animal-card h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.animal-card img{
+    width: 100%;
+    max-width: 300px;
+}
+
+.animal-card .description{
+    border:1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.animal-card .description .facts {
+    list-style: none;
+    padding-left:0;
+}
+
+.animal-card .facts .label{
+    font-weight: bold;
+}
+
+.animal-card p.interesting-facts{
+    font-style: italic;
+}
