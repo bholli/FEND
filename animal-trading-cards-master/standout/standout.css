@@ -1,3 +1,8 @@
+/*
+* @descrtion: This is the CSS file for the "standout" design of the animal trading card.
+* @fonts: Google Fonts - https://fonts.google.com/
+* @design: The background image, (bg.png) is fully licensed. The background image, as well as overall design inspiration, is from https://elements.envato.com/animal-life-instagram-story-GAH8ZRE  
+*/
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
@@ -35,7 +40,7 @@ body{
 
 .animal-card h3{
     font-size:84px;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue', sans-serif;
     color:#c29774;
     letter-spacing: .15rem;
     line-height: 1;
